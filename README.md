@@ -30,3 +30,4 @@ Accuracy on the held-out test set: **83.2%** (logistic regression), ROC AUC 0.87
 - **Imputation inside a Pipeline** so the medians are learned from training data only (no data leakage).
 - **Pclass one-hot encoded**: passenger classes are categories, not quantities.
 - **Logistic regression chosen** because it scores as well as the random forest and is easier to explain.
+
